@@ -68,6 +68,3 @@ cluster_datos.columns
 #uniendo dataset
 cluster_datos['Cluster'] = pd.Series(y_kmeans, index=cluster_datos.index)
 
-
-
-data_frame.to_sql(name='target_table_name', con=connection_object_name, if_exists = 'append', index=False)
