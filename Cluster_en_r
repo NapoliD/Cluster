@@ -1,5 +1,5 @@
 # K-Means Clustering
-setwd("C://Users//l0304611//Desktop//K_Means")
+setwd("C://Users////Desktop//K_Means
 # Importamos data
 dataset = read.csv('Mall_Customers.csv')
 head(dataset)
